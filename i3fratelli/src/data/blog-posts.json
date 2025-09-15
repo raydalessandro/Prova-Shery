@@ -1,0 +1,252 @@
+{
+  "categories": [
+    {
+      "id": "storie-notturne",
+      "name": "Storie della Notte",
+      "slug": "storie-notturne",
+      "description": "Chi viene a comprare pane alle 3 del mattino?",
+      "icon": "🌙"
+    },
+    {
+      "id": "ricette-tradizione",
+      "name": "Ricette e Tradizione",
+      "slug": "ricette-tradizione",
+      "description": "I segreti del nostro lievito madre centenario",
+      "icon": "📜"
+    },
+    {
+      "id": "per-ristoratori",
+      "name": "Consigli per Ristoratori",
+      "slug": "per-ristoratori",
+      "description": "Come non rimanere mai senza pane",
+      "icon": "👨‍🍳"
+    },
+    {
+      "id": "vita-panificio",
+      "name": "Vita di Panificio",
+      "slug": "vita-panificio",
+      "description": "Il dietro le quinte del forno che non dorme",
+      "icon": "🏭"
+    }
+  ],
+  "posts": [
+    {
+      "id": "dove-comprare-pane-notte-milano",
+      "title": "Dove Comprare Pane di Notte a Milano: La Guida Definitiva",
+      "slug": "dove-comprare-pane-notte-milano",
+      "category": "storie-notturne",
+      "author": "Francesco (Il Fratello Maggiore)",
+      "date": "2025-01-10",
+      "excerpt": "Milano di notte ha fame. Ecco perché abbiamo deciso di non chiudere mai.",
+      "featured": true,
+      "readTime": "5 min",
+      "tags": ["milano", "24h", "pane notte", "sempre aperti"],
+      "seo": {
+        "metaDescription": "Scopri l'unico panificio aperto 24h a Milano. Pane fresco anche alle 3 di notte, consegne notturne, servizio emergenza.",
+        "keywords": ["panificio notturno milano", "dove comprare pane notte", "panificio 24h"]
+      },
+      "content": {
+        "introduction": "Sono le 3 del mattino. Hai fame. Dove vai? Da noi, ovviamente.",
+        "sections": [
+          {
+            "title": "Perché Restiamo Aperti",
+            "content": "Non è una questione di business. È una promessa alla città."
+          },
+          {
+            "title": "Chi Viene di Notte",
+            "content": "Tassisti, infermieri, studenti, ristoratori disperati. Ognuno ha la sua storia."
+          }
+        ]
+      },
+      "image": "/images/blog/panificio-notte.jpg"
+    },
+    {
+      "id": "storia-lievito-madre-centenario",
+      "title": "La Storia del Nostro Lievito Madre: 100 Anni in un Barattolo",
+      "slug": "storia-lievito-madre-centenario",
+      "category": "ricette-tradizione",
+      "author": "Giuseppe (Il Fratello di Mezzo)",
+      "date": "2025-01-08",
+      "excerpt": "Dal 1920, lo stesso lievito. Sopravvissuto a guerre, traslochi e lockdown.",
+      "readTime": "7 min",
+      "tags": ["lievito madre", "tradizione", "storia", "ricette"],
+      "content": {
+        "introduction": "Alcuni lo chiamano 'pasta madre', noi lo chiamiamo 'il nonno'.",
+        "sections": [
+          {
+            "title": "1920: L'Inizio",
+            "content": "La bisnonna lo portò dalla Puglia. In treno. Per 18 ore."
+          },
+          {
+            "title": "Come Lo Curiamo",
+            "content": "Ogni giorno, alle 6 e alle 18. Come una preghiera."
+          }
+        ]
+      },
+      "image": "/images/blog/lievito-madre.jpg"
+    },
+    {
+      "id": "emergenza-pane-ristorante",
+      "title": "Finito il Pane Durante il Servizio? Ecco Cosa Fare",
+      "slug": "emergenza-pane-ristorante",
+      "category": "per-ristoratori",
+      "author": "Antonio (Il Fratello Minore)",
+      "date": "2025-01-05",
+      "excerpt": "La guida definitiva per non rimanere mai senza pane durante il servizio.",
+      "readTime": "4 min",
+      "tags": ["ristoranti", "emergenza", "b2b", "consigli"],
+      "featured": true,
+      "content": {
+        "introduction": "Sabato sera, ore 21, 80 coperti. Finisce il pane. Panico? No, se hai il nostro numero.",
+        "sections": [
+          {
+            "title": "Piano A: Prevenzione",
+            "content": "Calcola sempre il 20% in più. Ma se non basta..."
+          },
+          {
+            "title": "Piano B: Noi",
+            "content": "333 456 7890. Questo numero salva serate."
+          }
+        ]
+      },
+      "image": "/images/blog/emergenza-ristorante.jpg"
+    },
+    {
+      "id": "pane-hamburger-perfetto",
+      "title": "Il Burger Bun Perfetto: Segreti dal Forno",
+      "slug": "pane-hamburger-perfetto",
+      "category": "per-ristoratori",
+      "author": "Francesco (Il Fratello Maggiore)",
+      "date": "2024-12-28",
+      "excerpt": "Come riconoscere e scegliere il panino perfetto per i tuoi hamburger gourmet.",
+      "readTime": "6 min",
+      "tags": ["burger", "pane", "ristoranti", "consigli tecnici"],
+      "content": {
+        "introduction": "Un grande hamburger inizia da un grande panino. Ecco come sceglierlo.",
+        "sections": [
+          {
+            "title": "Le 3 Caratteristiche Fondamentali",
+            "content": "Morbidezza, resistenza, sapore. In quest'ordine."
+          }
+        ]
+      },
+      "image": "/images/blog/burger-bun.jpg"
+    },
+    {
+      "id": "natale-panificio-h24",
+      "title": "Natale in Panificio: Aperti Anche il 25",
+      "slug": "natale-panificio-h24",
+      "category": "vita-panificio",
+      "author": "I 3 Fratelli",
+      "date": "2024-12-24",
+      "excerpt": "Perché restiamo aperti anche a Natale? Per chi non ha dove andare.",
+      "readTime": "3 min",
+      "tags": ["natale", "24h", "comunità", "solidarietà"],
+      "content": {
+        "introduction": "Il 25 dicembre chiudiamo 4 ore. Per pranzare con la famiglia. Poi riapriamo.",
+        "sections": [
+          {
+            "title": "Per Chi Non Ha Famiglia",
+            "content": "Il pane caldo di Natale non ha prezzo. È gratis per chi è solo."
+          }
+        ]
+      },
+      "image": "/images/blog/natale-panificio.jpg"
+    },
+    {
+      "id": "milano-notte-panificio",
+      "title": "Milano di Notte Vista dal Panificio",
+      "slug": "milano-notte-panificio",
+      "category": "storie-notturne",
+      "author": "Francesco (Il Fratello Maggiore)",
+      "date": "2024-12-15",
+      "excerpt": "Cosa succede in città mentre tutti dormono? Noi lo vediamo ogni notte.",
+      "readTime": "8 min",
+      "tags": ["milano", "notte", "storie", "città"],
+      "featured": true,
+      "content": {
+        "introduction": "Dalle nostre vetrine vediamo una Milano che pochi conoscono.",
+        "sections": [
+          {
+            "title": "Le 2 di Notte",
+            "content": "I rider che finiscono il turno. Sempre affamati, sempre di fretta."
+          },
+          {
+            "title": "Le 4 di Notte",
+            "content": "Gli operai del primo turno. Caffè nero, panino, via."
+          }
+        ]
+      },
+      "image": "/images/blog/milano-notte.jpg"
+    },
+    {
+      "id": "come-riconoscere-pane-qualita",
+      "title": "Come Riconoscere il Vero Pane Artigianale",
+      "slug": "come-riconoscere-pane-qualita",
+      "category": "ricette-tradizione",
+      "author": "Giuseppe (Il Fratello di Mezzo)",
+      "date": "2024-11-30",
+      "excerpt": "Non tutto il pane è uguale. Ecco come distinguere l'artigianale dal resto.",
+      "readTime": "5 min",
+      "tags": ["qualità", "artigianale", "consigli", "tradizione"],
+      "content": {
+        "introduction": "Il pane vero si riconosce. Con gli occhi, col naso, con le mani.",
+        "sections": [
+          {
+            "title": "La Crosta",
+            "content": "Deve cantare. Se la schiacci, deve fare 'crock'."
+          },
+          {
+            "title": "La Mollica",
+            "content": "Alveoli irregolari. Se sono tutti uguali, è industriale."
+          }
+        ]
+      },
+      "image": "/images/blog/pane-artigianale.jpg"
+    },
+    {
+      "id": "pane-sospeso-milano",
+      "title": "Il Pane Sospeso: La Solidarietà che Lievita",
+      "slug": "pane-sospeso-milano",
+      "category": "vita-panificio",
+      "author": "Antonio (Il Fratello Minore)",
+      "date": "2024-11-15",
+      "excerpt": "Come funziona il pane sospeso e perché è importante per il quartiere.",
+      "readTime": "4 min",
+      "tags": ["solidarietà", "pane sospeso", "comunità", "milano"],
+      "content": {
+        "introduction": "Un gesto semplice: paghi due pani, ne prendi uno. L'altro resta qui, per chi ne ha bisogno.",
+        "sections": [
+          {
+            "title": "Come Funziona",
+            "content": "Nessuna burocrazia. Chi ha bisogno, prende. Noi non facciamo domande."
+          }
+        ]
+      },
+      "image": "/images/blog/pane-sospeso.jpg"
+    }
+  ],
+  "authors": [
+    {
+      "id": "francesco",
+      "name": "Francesco",
+      "role": "Il Fratello Maggiore",
+      "bio": "Turno di notte dal 2019. Il guardiano del forno quando la città dorme.",
+      "avatar": "/images/authors/francesco.jpg"
+    },
+    {
+      "id": "giuseppe",
+      "name": "Giuseppe",
+      "role": "Il Fratello di Mezzo",
+      "bio": "Il custode del lievito madre. L'artista della lievitazione.",
+      "avatar": "/images/authors/giuseppe.jpg"
+    },
+    {
+      "id": "antonio",
+      "name": "Antonio",
+      "role": "Il Fratello Minore",
+      "bio": "Il ponte con i ristoranti. L'innovatore della tradizione.",
+      "avatar": "/images/authors/antonio.jpg"
+    }
+  ]
+}
