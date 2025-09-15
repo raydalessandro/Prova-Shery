@@ -1,0 +1,197 @@
+{
+  "brand": {
+    "name": "I 3 Fratelli",
+    "tagline": "Mani di granite, cuore di lievito",
+    "description": "L'unico vero panificio di quartiere H24 di Milano",
+    "established": 2019,
+    "logo": "images/logo-i3fratelli.svg",
+    "favicon": "favicon.ico"
+  },
+  "contact": {
+    "phone": {
+      "main": "+393331234567",
+      "emergency": "+393334567890",
+      "b2b": "+393337890123",
+      "display": "333 123 4567",
+      "displayEmergency": "333 456 7890"
+    },
+    "email": {
+      "info": "info@i3fratelli.it",
+      "ordini": "ordini@i3fratelli.it",
+      "b2b": "ristoranti@i3fratelli.it"
+    },
+    "whatsapp": {
+      "number": "393331234567",
+      "defaultMessage": "Salve, vorrei ordinare del pane",
+      "b2bMessage": "Salve, sono un ristorante e vorrei informazioni su forniture B2B",
+      "emergencyMessage": "URGENTE: Ho bisogno di pane subito"
+    },
+    "address": {
+      "street": "Via del Pane, 3",
+      "city": "Milano",
+      "cap": "20100",
+      "province": "MI",
+      "country": "Italia",
+      "zone": "Zona Isola - Porta Garibaldi",
+      "coordinates": {
+        "lat": 45.4864,
+        "lng": 9.19
+      }
+    }
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/i3fratelli",
+    "instagram": "https://www.instagram.com/i3fratelli",
+    "tiktok": "https://www.tiktok.com/@i3fratelli",
+    "googleBusiness": "https://g.page/i3fratelli",
+    "tripadvisor": "https://www.tripadvisor.it/i3fratelli"
+  },
+  "hours": {
+    "isAlwaysOpen": true,
+    "regular": {
+      "monday": "00:00-24:00",
+      "tuesday": "00:00-24:00",
+      "wednesday": "00:00-24:00",
+      "thursday": "00:00-24:00",
+      "friday": "00:00-24:00",
+      "saturday": "00:00-24:00",
+      "sunday": "00:00-24:00"
+    },
+    "special": {
+      "natale": "00:00-24:00",
+      "capodanno": "00:00-24:00",
+      "pasqua": "00:00-24:00",
+      "ferragosto": "00:00-24:00"
+    },
+    "displayText": "SEMPRE APERTI 24/7",
+    "closedDays": 0,
+    "openDaysPerYear": 365,
+    "maintenanceDays": [
+      { "recurring": { "month": 12, "day": 25 }, "from": "14:00", "to": "18:00", "note": "Manutenzione (Natale)" },
+      { "recurring": { "month": 1, "day": 1 }, "from": "14:00", "to": "18:00", "note": "Manutenzione (Capodanno)" }
+    ]
+  },
+  "services": {
+    "delivery": {
+      "available": true,
+      "minOrder": 10,
+      "maxDistanceValue": 10,
+      "maxDistanceUnit": "km",
+      "zones": ["Milano Centro", "Isola", "Porta Garibaldi", "Garibaldi", "Moscova", "Brera"],
+      "times": "24 ore su 24",
+      "emergency": true,
+      "b2b": {
+        "available": true,
+        "minOrder": 30,
+        "scheduled": true,
+        "emergency": true,
+        "nightDelivery": true
+      }
+    },
+    "catering": {
+      "available": true,
+      "minPeople": 10,
+      "advanceNotice": "PT24H",
+      "types": ["Eventi aziendali", "Matrimoni", "Compleanni", "Meeting"]
+    },
+    "special": {
+      "paneSospeso": true,
+      "emergencyService": true,
+      "nightBaking": true,
+      "customOrders": true
+    }
+  },
+  "payment": {
+    "methods": ["Contanti", "Carta di credito", "Bancomat", "Satispay", "PayPal"],
+    "invoicing": true,
+    "creditTerms": "30 giorni netti per clienti B2B verificati"
+  },
+  "seo": {
+    "defaultTitle": "I 3 Fratelli - Panificio H24 Milano | Sempre Aperti",
+    "titleTemplate": "%s | I 3 Fratelli - Panificio 24h Milano",
+    "defaultDescription": "L'unico vero panificio di quartiere aperto 24 ore su 24 a Milano. Pane artigianale con lievito madre, tradizione e mani di granite.",
+    "defaultKeywords": [
+      "panificio 24h milano",
+      "pane notte milano",
+      "panificio sempre aperto",
+      "pane artigianale milano",
+      "lievito madre",
+      "forniture ristoranti milano",
+      "pane a domicilio milano",
+      "panificio h24",
+      "emergenza pane milano"
+    ],
+    "ogImage": "images/og-image.jpg",
+    "twitterCard": "summary_large_image",
+    "locale": "it_IT",
+    "type": "website"
+  },
+  "features": {
+    "blog": true,
+    "b2b": true,
+    "ecommerce": false,
+    "booking": false,
+    "newsletter": true,
+    "reviews": true,
+    "aiResonance": true,
+    "whatsappFloat": true,
+    "cookieBanner": true,
+    "pwa": true,
+    "darkMode": true
+  },
+  "performance": {
+    "lazyLoading": true,
+    "imageOptimization": true,
+    "criticalCSS": true,
+    "serviceWorker": true,
+    "cdn": {
+      "enabled": true,
+      "url": "https://cdn.i3fratelli.it"
+    }
+  },
+  "analytics": {
+    "googleAnalytics": {
+      "enabled": true,
+      "id": "G-XXXXXXXXXX"
+    },
+    "googleTagManager": {
+      "enabled": true,
+      "id": "GTM-XXXXXXX"
+    },
+    "facebookPixel": {
+      "enabled": false,
+      "id": ""
+    },
+    "customEvents": {
+      "whatsappClick": true,
+      "phoneCall": true,
+      "formSubmit": true,
+      "aiTraffic": true
+    }
+  },
+  "legal": {
+    "privacyPolicy": "privacy",
+    "cookiePolicy": "cookie-policy",
+    "termsConditions": "termini-condizioni",
+    "vatNumber": "IT12345678901",
+    "companyName": "I 3 Fratelli S.r.l.",
+    "rea": "MI-1234567"
+  },
+  "emergency": {
+    "enabled": true,
+    "message": "Servizio emergenza attivo 24/7",
+    "responseTime": "PT30M",
+    "hotline": "+393334567890",
+    "keywords": ["urgente", "emergenza", "subito", "ora", "adesso", "stanotte"]
+  },
+  "testimonials": {
+    "googleRating": 4.9,
+    "googleReviews": 342,
+    "tripadvisorRating": 4.8,
+    "featured": [
+      "Il pane più buono di Milano, sempre aperti!",
+      "Salvati alle 3 di notte, eroi!",
+      "Uomini di granite, pane di paradiso"
+    ]
+  }
+}
