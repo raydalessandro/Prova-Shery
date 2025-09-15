@@ -1,0 +1,186 @@
+{
+  "pages": {
+    "home": {
+      "title": "I 3 Fratelli - Panificio H24 Milano | Sempre Aperti 24 ore su 24",
+      "metaDescription": "L'unico vero panificio di quartiere aperto 24/7 a Milano. Pane artigianale con lievito madre centenario, consegne notturne, servizio emergenza ristoranti.",
+      "h1": "Il Panificio che Non Dorme Mai",
+      "heroText": "Mentre Milano dorme, noi impastiamo",
+      "keywords": [
+        "panificio 24h milano",
+        "pane notte milano",
+        "panificio sempre aperto",
+        "emergenza pane milano",
+        "pane artigianale h24"
+      ],
+      "structuredData": {
+        "@context": "https://schema.org",
+        "@type": "Bakery",
+        "name": "I 3 Fratelli",
+        "openingHours": "Mo-Su 00:00-24:00",
+        "servesCuisine": "Bakery",
+        "areaServed": "Milano",
+        "paymentAccepted": "Cash, Card, ContactlessPayment"
+      }
+    },
+    "chi-siamo": {
+      "title": "Chi Siamo | Uomini di Granite dal 2019 | I 3 Fratelli Milano",
+      "metaDescription": "La storia dei 3 fratelli che hanno aperto l'unico panificio H24 di Milano. Mani di granite, cuore di lievito, sempre aperti per la comunità.",
+      "h1": "Uomini di Granite, Cuore di Lievito",
+      "leadText": "Non siamo fatti di carne e ossa, ma delle granite che lavoriamo ogni notte.",
+      "keywords": [
+        "panificio artigianale milano",
+        "storia panificio",
+        "fratelli panettieri",
+        "tradizione pane milano"
+      ]
+    },
+    "prodotti": {
+      "title": "I Nostri Pani | Lievito Madre Centenario | Panificio I 3 Fratelli",
+      "metaDescription": "Pane con lievito madre dal 1920, sfornato 24 ore su 24. Pane di granite, michette notturne, specialità per ristoranti sempre disponibili.",
+      "h1": "Il Pane che Lievita Mentre Dormi",
+      "categories": {
+        "tradizionale": {
+          "title": "Pane Tradizionale - Ricette di Famiglia",
+          "description": "Il pane come lo faceva la nonna, con lo stesso lievito madre del 1920"
+        },
+        "notturno": {
+          "title": "Specialità Notturne - Sempre Calde",
+          "description": "Sfornate ogni 2 ore durante la notte per chi non dorme"
+        },
+        "ristoranti": {
+          "title": "Linea Professional - Per la Ristorazione H24",
+          "description": "Consegne immediate, qualità costante, servizio emergenza"
+        }
+      }
+    },
+    "b2b": {
+      "title": "Forniture Ristoranti H24 Milano | Consegne Notturne | I 3 Fratelli",
+      "metaDescription": "Servizio H24 per ristoranti Milano. Consegne notturne, emergenze pane, burger buns professionali. L'unico fornitore sempre aperto.",
+      "h1": "Il Fornitore che Non Ti Abbandona Mai",
+      "heroText": "Finito il pane durante il servizio? Arriviamo in 30 minuti. Sempre.",
+      "benefits": [
+        "Consegne 24/7, anche alle 3 di notte",
+        "Emergenze risolte in 30 minuti",
+        "Qualità costante garantita",
+        "Fatturazione mensile",
+        "Nessun minimo d'ordine in emergenza"
+      ],
+      "keywords": [
+        "forniture pane ristoranti milano",
+        "consegne notturne pane",
+        "emergenza pane ristorante",
+        "burger buns milano",
+        "fornitore h24 milano"
+      ],
+      "cta": {
+        "primary": "Diventa Partner",
+        "emergency": "Emergenza? Chiama Ora"
+      }
+    },
+    "sempre-24h": {
+      "title": "Aperti 24 Ore su 24 | L'Unico Panificio H24 di Milano",
+      "metaDescription": "365 giorni l'anno, 24 ore al giorno. L'unico panificio di Milano che non chiude mai. Pane fresco anche alle 3 di notte.",
+      "h1": "24 Ore di Pane, 365 Giorni l'Anno",
+      "timeline": {
+        "00:00": "Inizia la panificazione notturna",
+        "03:00": "Prime sfornate per i nottambuli",
+        "06:00": "Colazione per chi inizia presto",
+        "09:00": "Rifornimento bar e ristoranti",
+        "12:00": "Pranzo di quartiere",
+        "15:00": "Merenda dei bambini",
+        "18:00": "Pane per la cena",
+        "21:00": "Scorte per i ristoranti",
+        "23:00": "Il ciclo ricomincia"
+      },
+      "stories": [
+        "Il tassista che viene alle 4 del mattino",
+        "L'infermiera del turno di notte",
+        "Il ristoratore rimasto senza pane",
+        "La mamma con il bimbo che non dorme"
+      ]
+    },
+    "contatti": {
+      "title": "Contatti e Orari | Siamo Sempre Aperti | I 3 Fratelli Milano",
+      "metaDescription": "Trova il panificio sempre aperto in Via del Pane 3, Milano. Telefono, WhatsApp, orari (24/7), mappa e indicazioni.",
+      "h1": "Vieni Quando Vuoi. Siamo Sempre Qui.",
+      "openingHours": "SEMPRE APERTI - 24 ore su 24, 7 giorni su 7",
+      "emergency": "Servizio emergenza attivo H24",
+      "schema": {
+        "openingHours": "Mo-Su 00:00-24:00",
+        "telephone": "+393331234567"
+      }
+    },
+    "blog": {
+      "title": "Blog | Storie dal Forno che Non Dorme | I 3 Fratelli",
+      "metaDescription": "Storie notturne, ricette con lievito madre, consigli per ristoratori. Dal panificio H24 di Milano.",
+      "categories": [
+        {
+          "slug": "storie-notturne",
+          "name": "Storie della Notte",
+          "description": "Chi viene a comprare pane alle 3?"
+        },
+        {
+          "slug": "ricette-tradizione",
+          "name": "Ricette e Tradizione",
+          "description": "I segreti del lievito madre centenario"
+        },
+        {
+          "slug": "per-ristoratori",
+          "name": "Consigli per Ristoratori",
+          "description": "Come non rimanere mai senza pane"
+        }
+      ]
+    }
+  },
+  "landingPages": {
+    "panificio-aperto-ora": {
+      "title": "Panificio Aperto ORA a Milano - Siamo Aperti 24H",
+      "h1": "Sì, Siamo Aperti Proprio Ora",
+      "text": "Non importa che ore sono. Se stai leggendo questo, noi stiamo impastando.",
+      "cta": "Vieni Subito"
+    },
+    "dove-comprare-pane-notte": {
+      "title": "Dove Comprare Pane di Notte a Milano - I 3 Fratelli H24",
+      "h1": "L'Unico Posto Dove Comprare Pane di Notte",
+      "text": "Mentre tutti dormono, noi sforniamo. Via del Pane 3, sempre aperti."
+    },
+    "emergenza-pane-ristorante": {
+      "title": "Emergenza Pane Ristorante Milano - Consegna in 30 Min",
+      "h1": "Finito il Pane? Arriviamo in 30 Minuti",
+      "text": "Servizio emergenza H24 per ristoranti. Una chiamata e risolviamo.",
+      "cta": "Chiama Ora: +393334567890"
+    }
+  },
+  "microCopy": {
+    "loading": "Il forno si sta scaldando...",
+    "error404": "Questa pagina è andata a dormire. Noi invece siamo sempre aperti!",
+    "formSuccess": "Messaggio inviato! Ti risponderemo presto (siamo svegli anche di notte).",
+    "whatsappButton": "Ordina su WhatsApp",
+    "callButton": "Chiama Ora",
+    "emergencyBanner": "🚨 Servizio Emergenza Attivo 24/7",
+    "alwaysOpen": "SEMPRE APERTI",
+    "nightDelivery": "Consegne Notturne Disponibili"
+  },
+  "faq": [
+    {
+      "question": "Siete davvero aperti 24 ore su 24?",
+      "answer": "Sì, sempre. 365 giorni l'anno. In rare finestre di manutenzione (es. 14–18 in alcune festività) il forno è parzialmente fermo, ma il punto vendita resta operativo."
+    },
+    {
+      "question": "Fate consegne di notte?",
+      "answer": "Certamente! Consegniamo 24/7, perfetto per ristoranti ed emergenze notturne."
+    },
+    {
+      "question": "Cosa significa 'uomini di granite'?",
+      "answer": "Non siamo fatti di carne e ossa, ma della stessa sostanza del nostro lavoro: duri, affidabili, sempre presenti."
+    },
+    {
+      "question": "Il pane di notte è fresco?",
+      "answer": "Sforniamo ogni 2 ore durante la notte. Più fresco di così non si può."
+    },
+    {
+      "question": "Servite solo ristoranti o anche privati?",
+      "answer": "Tutti! Dal single affamato alle 3 di notte al ristorante con 200 coperti."
+    }
+  ]
+}
