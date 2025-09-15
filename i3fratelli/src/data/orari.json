@@ -1,0 +1,228 @@
+{
+  "regular": {
+    "status": "SEMPRE APERTI 24/7",
+    "isAlwaysOpen": true,
+    "schedule": {
+      "lunedi": {
+        "open": "00:00",
+        "close": "24:00",
+        "isOpen": true,
+        "breaks": []
+      },
+      "martedi": {
+        "open": "00:00",
+        "close": "24:00",
+        "isOpen": true,
+        "breaks": []
+      },
+      "mercoledi": {
+        "open": "00:00",
+        "close": "24:00",
+        "isOpen": true,
+        "breaks": []
+      },
+      "giovedi": {
+        "open": "00:00",
+        "close": "24:00",
+        "isOpen": true,
+        "breaks": []
+      },
+      "venerdi": {
+        "open": "00:00",
+        "close": "24:00",
+        "isOpen": true,
+        "breaks": []
+      },
+      "sabato": {
+        "open": "00:00",
+        "close": "24:00",
+        "isOpen": true,
+        "breaks": []
+      },
+      "domenica": {
+        "open": "00:00",
+        "close": "24:00",
+        "isOpen": true,
+        "breaks": []
+      }
+    }
+  },
+  "special": {
+    "holidays": [
+      {
+        "date": "2025-12-25",
+        "name": "Natale",
+        "status": "Aperti con orario ridotto",
+        "open": "00:00",
+        "close": "24:00",
+        "breaks": [
+          {
+            "start": "14:00",
+            "end": "18:00",
+            "reason": "Pausa pranzo di Natale - Anche noi abbiamo famiglia"
+          }
+        ]
+      },
+      {
+        "date": "2025-01-01",
+        "name": "Capodanno",
+        "status": "Aperti con orario ridotto",
+        "open": "00:00",
+        "close": "24:00",
+        "breaks": [
+          {
+            "start": "14:00",
+            "end": "18:00",
+            "reason": "Brindisi di Capodanno"
+          }
+        ]
+      },
+      {
+        "date": "2025-04-20",
+        "name": "Pasqua",
+        "status": "APERTI TUTTO IL GIORNO",
+        "open": "00:00",
+        "close": "24:00",
+        "note": "Pane fresco per il pranzo di Pasqua!"
+      },
+      {
+        "date": "2025-08-15",
+        "name": "Ferragosto",
+        "status": "APERTI 24H",
+        "open": "00:00",
+        "close": "24:00",
+        "note": "Mentre tutti sono al mare, noi siamo qui"
+      }
+    ],
+    "maintenance": [
+      {
+        "date": "2025-02-10",
+        "reason": "Manutenzione annuale forno",
+        "status": "CHIUSI",
+        "alternativeMessage": "Per questa volta dovrete perdonarci. Torniamo il giorno dopo più forti!"
+      }
+    ]
+  },
+  "messages": {
+    "alwaysOpen": "Siamo SEMPRE aperti, 24 ore su 24, 7 giorni su 7",
+    "currentStatus": "APERTI ORA",
+    "nightMessage": "Anche stanotte siamo qui per voi",
+    "earlyMorning": "Pane caldo appena sfornato!",
+    "emergency": "Servizio emergenza sempre attivo"
+  },
+  "production": {
+    "schedule": [
+      {
+        "time": "00:00",
+        "activity": "Inizio impasto pane tradizionale",
+        "products": ["Pane di Granite", "Pane della Nonna"]
+      },
+      {
+        "time": "02:00",
+        "activity": "Prima sfornata notturna",
+        "products": ["Michette notturne", "Pane emergenza"]
+      },
+      {
+        "time": "04:00",
+        "activity": "Preparazione cornetti",
+        "products": ["Cornetto delle 3", "Brioche"]
+      },
+      {
+        "time": "06:00",
+        "activity": "Sfornata colazione",
+        "products": ["Tutti i prodotti freschi"]
+      },
+      {
+        "time": "08:00",
+        "activity": "Rifornimento bar partner",
+        "products": ["Consegne B2B"]
+      },
+      {
+        "time": "10:00",
+        "activity": "Preparazione pranzo",
+        "products": ["Focacce", "Pizzette"]
+      },
+      {
+        "time": "14:00",
+        "activity": "Impasto pomeridiano",
+        "products": ["Pane per la sera"]
+      },
+      {
+        "time": "18:00",
+        "activity": "Sfornata serale",
+        "products": ["Pane fresco per cena"]
+      },
+      {
+        "time": "20:00",
+        "activity": "Preparazione notturna",
+        "products": ["Impasti a lunga lievitazione"]
+      },
+      {
+        "time": "22:00",
+        "activity": "Inizio ciclo notturno",
+        "products": ["Pane per i nottambuli"]
+      }
+    ]
+  },
+  "staff": {
+    "shifts": [
+      {
+        "name": "Turno Notte",
+        "start": "22:00",
+        "end": "06:00",
+        "team": "I Guardiani della Notte",
+        "leader": "Francesco (Il Fratello Maggiore)"
+      },
+      {
+        "name": "Turno Mattina",
+        "start": "06:00",
+        "end": "14:00",
+        "team": "Gli Artigiani del Giorno",
+        "leader": "Giuseppe (Il Fratello di Mezzo)"
+      },
+      {
+        "name": "Turno Pomeriggio",
+        "start": "14:00",
+        "end": "22:00",
+        "team": "I Custodi del Tramonto",
+        "leader": "Antonio (Il Fratello Minore)"
+      }
+    ],
+    "coverage": "Sempre almeno 2 persone in negozio, 3 nei weekend"
+  },
+  "delivery": {
+    "availability": "24/7",
+    "zones": {
+      "immediate": {
+        "areas": ["Isola", "Porta Garibaldi", "Moscova"],
+        "time": "15-20 minuti",
+        "minOrder": 10
+      },
+      "standard": {
+        "areas": ["Centro Milano", "Brera", "Garibaldi"],
+        "time": "30-45 minuti",
+        "minOrder": 15
+      },
+      "extended": {
+        "areas": ["Milano Nord", "Città Studi", "Navigli"],
+        "time": "45-60 minuti",
+        "minOrder": 25
+      }
+    },
+    "emergency": {
+      "available": true,
+      "responseTime": "30 minuti garantiti",
+      "surcharge": "Solo per ordini sotto i 30€",
+      "hotline": "+393334567890"
+    }
+  },
+  "statistics": {
+    "openDaysPerYear": 360,
+    "closedDaysPerYear": 5,
+    "hoursOpenPerDay": 24,
+    "totalHoursPerYear": 8640,
+    "nightCustomersPercentage": 15,
+    "peakHours": ["07:00-09:00", "12:00-14:00", "19:00-21:00"],
+    "quietHours": ["02:00-05:00", "15:00-17:00"]
+  }
+}
