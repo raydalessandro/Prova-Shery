@@ -1,0 +1,297 @@
+{
+  "hero": {
+    "title": "Il Fornitore che Non Ti Abbandona Mai",
+    "subtitle": "Servizio H24 per ristoranti, bar e hotel",
+    "cta": {
+      "primary": "Diventa Partner",
+      "secondary": "Scarica Listino"
+    },
+    "emergency": {
+      "text": "Emergenza pane?",
+      "button": "Consegna in 30 min",
+      "phone": "+393334567890"
+    }
+  },
+  "valueProposition": {
+    "main": "L'unico fornitore di pane aperto quando gli altri dormono",
+    "points": [
+      {
+        "icon": "🕐",
+        "title": "24/7/360",
+        "description": "Sempre aperti, anche alle 3 di notte del 25 dicembre"
+      },
+      {
+        "icon": "🚚",
+        "title": "30 Minuti",
+        "description": "Consegna garantita per emergenze"
+      },
+      {
+        "icon": "🤝",
+        "title": "Zero Minimi",
+        "description": "In emergenza, nessun ordine minimo"
+      },
+      {
+        "icon": "💳",
+        "title": "Fatturazione Mensile",
+        "description": "Paghi una volta al mese, pensiamo noi al resto"
+      }
+    ]
+  },
+  "services": {
+    "regular": {
+      "title": "Servizio Programmato",
+      "description": "Consegne regolari per le tue necessità quotidiane",
+      "features": [
+        "Orari personalizzati",
+        "Quantità fisse o variabili",
+        "Fatturazione mensile",
+        "Account manager dedicato"
+      ],
+      "minimumOrder": 30,
+      "deliveryTime": "Secondo accordi"
+    },
+    "emergency": {
+      "title": "Servizio Emergenza H24",
+      "description": "Quando finisce il pane durante il servizio",
+      "features": [
+        "Risposta in 5 minuti",
+        "Consegna in 30 minuti",
+        "Nessun ordine minimo",
+        "Nessun sovrapprezzo notturno"
+      ],
+      "availability": "24/7",
+      "hotline": "+393334567890"
+    },
+    "consulting": {
+      "title": "Consulenza Pane",
+      "description": "Ti aiutiamo a scegliere il pane giusto per il tuo menu",
+      "features": [
+        "Analisi menu",
+        "Suggerimenti abbinamenti",
+        "Prove gratuite",
+        "Formazione staff"
+      ]
+    }
+  },
+  "products": {
+    "categories": [
+      {
+        "name": "Linea Hamburger",
+        "items": [
+          {
+            "name": "Burger Bun Classico",
+            "sizes": ["8cm", "10cm", "12cm"],
+            "price": "€0.60 - €0.80",
+            "minOrder": 50
+          },
+          {
+            "name": "Burger Bun Nero",
+            "description": "Con carbone vegetale",
+            "price": "€0.90",
+            "minOrder": 30
+          },
+          {
+            "name": "Burger Bun Integrale",
+            "price": "€0.85",
+            "minOrder": 30
+          }
+        ]
+      },
+      {
+        "name": "Linea Pizza & Focacce",
+        "items": [
+          {
+            "name": "Base Pizza Pre-cotta",
+            "sizes": ["25cm", "30cm", "35cm"],
+            "price": "€1.50 - €2.50"
+          },
+          {
+            "name": "Focaccia Bianca",
+            "price": "€15/kg"
+          }
+        ]
+      },
+      {
+        "name": "Pane da Tavola",
+        "items": [
+          {
+            "name": "Filoncino",
+            "price": "€0.90/pezzo"
+          },
+          {
+            "name": "Pane di Granite",
+            "description": "Il nostro signature",
+            "price": "€3.50/kg"
+          },
+          {
+            "name": "Grissini Artigianali",
+            "price": "€8/kg"
+          }
+        ]
+      },
+      {
+        "name": "Linea Breakfast",
+        "items": [
+          {
+            "name": "Cornetti Vuoti",
+            "price": "€0.80/pezzo"
+          },
+          {
+            "name": "Cornetti Farciti",
+            "price": "€1.20/pezzo"
+          },
+          {
+            "name": "Brioche",
+            "price": "€1.00/pezzo"
+          }
+        ]
+      }
+    ]
+  },
+  "clients": {
+    "testimonials": [
+      {
+        "name": "Ristorante Da Giuseppe",
+        "type": "Trattoria",
+        "quote": "3 anni insieme. Mai un ritardo, mai un problema. Partner veri.",
+        "rating": 5
+      },
+      {
+        "name": "Burger House Milano",
+        "type": "Hamburgeria",
+        "quote": "I loro bun sono perfetti. Ma è la disponibilità H24 che fa la differenza.",
+        "rating": 5
+      },
+      {
+        "name": "Hotel Centrale",
+        "type": "Hotel 4 stelle",
+        "quote": "Colazione per 200 ospiti? Consegna alle 5 del mattino, sempre puntuali.",
+        "rating": 5
+      }
+    ],
+    "logos": [
+      "partner-1.png",
+      "partner-2.png",
+      "partner-3.png"
+    ],
+    "stats": {
+      "activeClients": 127,
+      "dailyDeliveries": 45,
+      "emergenciesResolved": "1842 nel 2024",
+      "averageResponseTime": "23 minuti"
+    }
+  },
+  "pricing": {
+    "standard": {
+      "title": "Listino Standard",
+      "note": "Prezzi IVA esclusa, consegna inclusa per ordini >€50"
+    },
+    "volume": {
+      "title": "Sconti Volume",
+      "tiers": [
+        {
+          "from": 100,
+          "to": 200,
+          "discount": "5%"
+        },
+        {
+          "from": 201,
+          "to": 500,
+          "discount": "10%"
+        },
+        {
+          "from": 501,
+          "discount": "15%"
+        }
+      ]
+    },
+    "contract": {
+      "title": "Contratti Annuali",
+      "benefits": [
+        "Prezzi bloccati 12 mesi",
+        "Sconto extra 5%",
+        "Priorità consegne",
+        "Consulenza gratuita"
+      ]
+    }
+  },
+  "onboarding": {
+    "steps": [
+      {
+        "number": 1,
+        "title": "Primo Contatto",
+        "description": "Chiamaci o scrivici su WhatsApp",
+        "time": "5 minuti"
+      },
+      {
+        "number": 2,
+        "title": "Analisi Necessità",
+        "description": "Capiamo insieme le tue esigenze",
+        "time": "15 minuti"
+      },
+      {
+        "number": 3,
+        "title": "Prova Gratuita",
+        "description": "Ti portiamo campioni senza impegno",
+        "time": "stesso giorno"
+      },
+      {
+        "number": 4,
+        "title": "Attivazione",
+        "description": "Sei operativo dal giorno stesso",
+        "time": "immediata"
+      }
+    ]
+  },
+  "guarantees": [
+    {
+      "icon": "✅",
+      "title": "Qualità Garantita",
+      "description": "Stesso standard H24, 360 giorni l'anno"
+    },
+    {
+      "icon": "⏰",
+      "title": "Puntualità",
+      "description": "In ritardo? Il prossimo ordine è gratis"
+    },
+    {
+      "icon": "🆘",
+      "title": "Sempre Raggiungibili",
+      "description": "Rispondiamo sempre, anche alle 3 di notte"
+    },
+    {
+      "icon": "🤲",
+      "title": "Flessibilità",
+      "description": "Modifica ordini fino a 2 ore prima"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Qual è l'ordine minimo?",
+      "answer": "€30 per consegne programmate, ZERO per emergenze"
+    },
+    {
+      "question": "Consegnate davvero di notte?",
+      "answer": "Sì, 24 ore su 24. Il nostro forno non si spegne mai."
+    },
+    {
+      "question": "Quanto costa la consegna?",
+      "answer": "Gratis sopra i €50, €5 sotto. Emergenze notturne: €10 flat."
+    },
+    {
+      "question": "Posso provare prima di ordinare?",
+      "answer": "Certo! Campioni gratuiti consegnati in giornata."
+    },
+    {
+      "question": "E se ho bisogno di una fattura?",
+      "answer": "Fatturazione elettronica mensile, pagamento 30gg."
+    }
+  ],
+  "cta": {
+    "header": "Inizia con una prova gratuita",
+    "button": "Richiedi Campioni",
+    "whatsapp": "Scrivici su WhatsApp",
+    "phone": "Chiama Ora",
+    "emergency": "EMERGENZA? Chiama subito: 333 456 7890"
+  }
+}
