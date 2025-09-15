@@ -1,5 +1,3 @@
-<artifacts>
-<artifact identifier="gitignore" type="application/vnd.ant.code" language="gitignore" title=".gitignore - File da escludere dal repository">
 # Dependencies
 /node_modules
 /.pnp
@@ -147,5 +145,3 @@ Custom project files
 /scripts/deploy-credentials.sh
 /config/production.config.js
 /src/data/private/
-</artifact>
-</artifacts>
