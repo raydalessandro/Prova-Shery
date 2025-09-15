@@ -1,0 +1,237 @@
+{
+  "stats": {
+    "googleRating": 4.9,
+    "googleReviews": 342,
+    "tripadvisorRating": 4.8,
+    "tripadvisorReviews": 127,
+    "facebookRating": 4.9,
+    "facebookReviews": 89
+  },
+  "featured": [
+    {
+      "id": "test-001",
+      "author": "Marco R.",
+      "role": "Tassista notturno",
+      "rating": 5,
+      "date": "2024-12-15",
+      "text": "Sono tassista da 15 anni. Alle 4 del mattino, quando Milano è deserta e hai fame, loro sono l'unica luce accesa. Non vendono solo pane: sono un faro nella notte.",
+      "highlight": "Sono un faro nella notte",
+      "verified": true,
+      "source": "google",
+      "tags": ["notturno", "24h", "salvavita"]
+    },
+    {
+      "id": "test-002",
+      "author": "Chiara M.",
+      "role": "Proprietaria Ristorante",
+      "rating": 5,
+      "date": "2024-11-28",
+      "text": "Sabato sera, ore 21, finisce il pane in pieno servizio. Panico. Una chiamata, 25 minuti dopo avevamo pane fresco. Hanno salvato la serata. Partner insostituibili.",
+      "highlight": "Hanno salvato la serata",
+      "verified": true,
+      "source": "google",
+      "business": true,
+      "tags": ["b2b", "emergenza", "affidabilità"]
+    },
+    {
+      "id": "test-003",
+      "author": "Nonna Teresa",
+      "role": "Cliente storica",
+      "rating": 5,
+      "date": "2024-10-05",
+      "text": "Il loro pane mi ricorda quello che faceva mia madre. Stesso profumo, stessa crosta, stesso amore. E poi sono ragazzi d'oro, veri uomini di granite.",
+      "highlight": "Veri uomini di granite",
+      "verified": true,
+      "source": "google",
+      "tags": ["tradizione", "qualità", "famiglia"]
+    },
+    {
+      "id": "test-004",
+      "author": "Luca S.",
+      "role": "Infermiere Ospedale",
+      "rating": 5,
+      "date": "2024-12-20",
+      "text": "Finisco il turno di notte alle 6. Passo sempre da loro: cornetto caldo e sorriso. Mi fanno sentire che qualcuno veglia anche su di noi che vegliamo sugli altri.",
+      "highlight": "Vegliano su chi veglia",
+      "verified": true,
+      "source": "tripadvisor",
+      "tags": ["notturno", "comunità", "calore umano"]
+    },
+    {
+      "id": "test-005",
+      "author": "Giuseppe F.",
+      "role": "Chef Stellato",
+      "rating": 5,
+      "date": "2024-11-15",
+      "text": "Il loro burger bun è perfetto. Ma non è questo il punto. Il punto è che alle 2 di notte, se chiamo, rispondono. E arrivano. Sempre. Professionisti veri.",
+      "highlight": "Professionisti veri",
+      "verified": true,
+      "source": "google",
+      "business": true,
+      "tags": ["b2b", "qualità", "professionalità"]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-001",
+      "author": "Anna B.",
+      "rating": 5,
+      "date": "2025-01-10",
+      "text": "Pane fantastico, sempre fresco anche alle 3 di notte!",
+      "source": "google"
+    },
+    {
+      "id": "rev-002",
+      "author": "Roberto D.",
+      "rating": 5,
+      "date": "2025-01-08",
+      "text": "Salvati più volte con consegne last minute per il mio bar.",
+      "source": "google",
+      "business": true
+    },
+    {
+      "id": "rev-003",
+      "author": "Maria G.",
+      "rating": 4,
+      "date": "2025-01-05",
+      "text": "Ottimo pane, prezzi onesti. L'unico neo è che creano dipendenza!",
+      "source": "facebook"
+    },
+    {
+      "id": "rev-004",
+      "author": "Paolo T.",
+      "rating": 5,
+      "date": "2025-01-03",
+      "text": "Il pane della nonna è spettacolare. Vale la pena attraversare Milano.",
+      "source": "tripadvisor"
+    },
+    {
+      "id": "rev-005",
+      "author": "Stefania L.",
+      "rating": 5,
+      "date": "2024-12-28",
+      "text": "Mio figlio neonato non dorme. Alle 4 del mattino esco per calmarlo e compro brioche calde. Salvezza.",
+      "source": "google",
+      "tags": ["notturno", "famiglia"]
+    },
+    {
+      "id": "rev-006",
+      "author": "Ristorante Da Mario",
+      "rating": 5,
+      "date": "2024-12-22",
+      "text": "Partner affidabili da 3 anni. Mai un ritardo, mai un problema.",
+      "source": "google",
+      "business": true
+    },
+    {
+      "id": "rev-007",
+      "author": "Francesca R.",
+      "rating": 5,
+      "date": "2024-12-18",
+      "text": "Il panificio del cuore. Entri per il pane, esci con il sorriso.",
+      "source": "facebook"
+    },
+    {
+      "id": "rev-008",
+      "author": "Alessandro M.",
+      "rating": 5,
+      "date": "2024-12-10",
+      "text": "Studente fuorisede. Budget limitato. Loro mi fanno sempre un prezzo onesto. Grazie fratelli!",
+      "source": "google",
+      "tags": ["comunità", "studenti"]
+    },
+    {
+      "id": "rev-009",
+      "author": "Pizzeria Napoli",
+      "rating": 5,
+      "date": "2024-12-05",
+      "text": "Consegne puntuali anche durante le partite del Napoli. Eroi!",
+      "source": "google",
+      "business": true
+    },
+    {
+      "id": "rev-010",
+      "author": "Laura P.",
+      "rating": 5,
+      "date": "2024-11-30",
+      "text": "Il loro pane sospeso ha sfamato mio padre quando era in difficoltà. Non lo dimenticherò mai.",
+      "source": "google",
+      "tags": ["pane sospeso", "solidarietà"]
+    }
+  ],
+  "stories": {
+    "night": [
+      {
+        "title": "Il tassista delle 4",
+        "story": "Ogni notte, alle 4 in punto, Marco parcheggia il taxi davanti al negozio. Un caffè dal bar di fronte (chiuso), un panino caldo da noi (sempre aperti). È la sua routine da 5 anni.",
+        "moral": "Siamo parte della vita notturna di Milano"
+      },
+      {
+        "title": "L'emergenza del sabato sera",
+        "story": "Ristorante pieno, 80 coperti, finisce il pane. Il proprietario chiama disperato. 22 minuti dopo, 10 kg di pane fresco alla porta. Standing ovation in cucina.",
+        "moral": "Non è un servizio, è una missione"
+      },
+      {
+        "title": "La notte del blackout",
+        "story": "Blackout in zona, tutto chiuso. Il nostro forno a legna continuava a funzionare. Abbiamo dato pane gratis a tutto il quartiere. Quella notte eravamo più di un panificio.",
+        "moral": "Nei momenti difficili, ci siamo"
+      }
+    ],
+    "community": [
+      {
+        "title": "Il pane sospeso di Natale",
+        "story": "Dicembre 2023: un cliente anonimo paga 100 pani sospesi. Li distribuiamo uno alla volta a chi ne ha bisogno. L'ultimo lo diamo la vigilia di Natale a una famiglia appena arrivata.",
+        "moral": "La solidarietà lievita come il pane"
+      },
+      {
+        "title": "La colazione degli studenti",
+        "story": "Ogni giovedì mattina, gli studenti del Politecnico sanno che i cornetti del giorno prima sono a metà prezzo. Non lo pubblicizziamo, ma la voce gira.",
+        "moral": "Aiutare senza dire"
+      }
+    ]
+  },
+  "press": [
+    {
+      "source": "Corriere della Sera",
+      "date": "2024-10-15",
+      "title": "Il panificio che non dorme mai",
+      "quote": "In una Milano che corre sempre, loro sono fermi. Fermi come granite, aperti come casa.",
+      "link": "#"
+    },
+    {
+      "source": "Repubblica Milano",
+      "date": "2024-09-20",
+      "title": "I guardiani del pane",
+      "quote": "Mentre la città dorme, tre fratelli vegliano sul forno. Una storia di dedizione assoluta.",
+      "link": "#"
+    },
+    {
+      "source": "Gambero Rosso",
+      "date": "2024-08-10",
+      "title": "L'autenticità ha un indirizzo",
+      "quote": "Non cercano di essere trendy. Sono veri. E il loro pane lo dimostra.",
+      "link": "#"
+    }
+  ],
+  "stats_detailed": {
+    "customerTypes": {
+      "notturni": "15%",
+      "mattinieri": "35%",
+      "quartiere": "30%",
+      "ristoranti": "20%"
+    },
+    "peakTestimonials": {
+      "time": "03:00-05:00",
+      "type": "Ringraziamenti notturni"
+    },
+    "mostCommonWords": [
+      "sempre aperti",
+      "salvati",
+      "granite",
+      "vero pane",
+      "famiglia"
+    ],
+    "loyaltyRate": "78%",
+    "wordOfMouth": "65% nuovi clienti da passaparola"
+  }
+}
