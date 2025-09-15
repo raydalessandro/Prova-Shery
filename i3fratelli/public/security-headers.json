@@ -1,0 +1,71 @@
+{
+  "headers": {
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://maps.googleapis.com https://apps.elfsight.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://api.i3fratelli.it https://maps.googleapis.com https://formspree.io; img-src 'self' data: https: blob:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; frame-src https://www.google.com https://www.youtube.com https://www.googletagmanager.com https://apps.elfsight.com; object-src 'none'; base-uri 'self'; form-action 'self' https://formspree.io; frame-ancestors 'self'; upgrade-insecure-requests; block-all-mixed-content; report-uri https://i3fratelli.report-uri.com/r/d/csp/enforce",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=(self), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()"
+  },
+  "notes": {
+    "why_removed": [
+      "X-XSS-Protection è deprecato dai principali browser",
+      "COEP/COOP rimossi: gli embed terzi (YouTube, GTM, Elfsight) potrebbero rompersi con require-corp/same-origin",
+      "Cache-Control come oggetto non è un header. Vedi policiesByPath per applicazioni per-route"
+    ]
+  },
+  "policiesByPath": {
+    "html": "public, max-age=0, must-revalidate",
+    "static": "public, max-age=31536000, immutable",
+    "images": "public, max-age=604800, stale-while-revalidate=86400"
+  },
+  "rateLimiting": {
+    "enabled": true,
+    "windowMs": 900000,
+    "max": 100,
+    "message": "Troppe richieste, riprova tra qualche minuto",
+    "standardHeaders": true,
+    "legacyHeaders": false,
+    "skipSuccessfulRequests": false,
+    "skip": [
+      "/api/health",
+      "/robots.txt",
+      "/sitemap.xml"
+    ]
+  },
+  "cors": {
+    "origin": [
+      "https://www.i3fratelli.it",
+      "https://i3fratelli.it"
+    ],
+    "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    "allowedHeaders": [
+      "Content-Type",
+      "Authorization",
+      "X-Requested-With"
+    ],
+    "credentials": true,
+    "maxAge": 86400
+  },
+  "securityTxt": {
+    "contact": "mailto:security@i3fratelli.it",
+    "expires": "2026-01-01T00:00:00.000Z",
+    "preferredLanguages": "it, en",
+    "canonical": "https://www.i3fratelli.it/.well-known/security.txt",
+    "policy": "https://www.i3fratelli.it/security-policy",
+    "hiring": "https://www.i3fratelli.it/careers"
+  },
+  "monitoring": {
+    "reportUri": "https://i3fratelli.report-uri.com/r/d/csp/enforce",
+    "expectCt": {
+      "enforce": true,
+      "maxAge": 86400,
+      "reportUri": "https://i3fratelli.report-uri.com/r/d/ct/enforce"
+    },
+    "nel": {
+      "reportTo": "default",
+      "maxAge": 86400,
+      "includeSubdomains": true
+    }
+  }
+}
