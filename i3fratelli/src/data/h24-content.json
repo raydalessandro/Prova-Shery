@@ -1,0 +1,314 @@
+{
+  "hero": {
+    "title": "Il Forno che Non Dorme Mai",
+    "subtitle": "24 ore di pane, 360 giorni l'anno",
+    "stats": {
+      "hoursOpen": "8,640",
+      "hoursPerYear": "ore aperte all'anno",
+      "nightCustomers": "15%",
+      "nightCustomersLabel": "clienti notturni"
+    }
+  },
+  "timeline": {
+    "title": "24 Ore nella Vita del Panificio",
+    "description": "Ogni ora ha il suo pane, ogni pane la sua storia",
+    "hours": [
+      {
+        "time": "00:00",
+        "title": "Mezzanotte - Inizia la Magia",
+        "activity": "Iniziamo l'impasto del pane per domani",
+        "products": ["Pane di Granite", "Pane della Nonna"],
+        "story": "Mentre Milano si addormenta, noi accendiamo il forno"
+      },
+      {
+        "time": "01:00",
+        "title": "L'Ora del Silenzio",
+        "activity": "Il lievito madre lavora nel silenzio",
+        "products": ["Lievitazione lenta"],
+        "story": "La città tace, il lievito parla"
+      },
+      {
+        "time": "02:00",
+        "title": "Prima Sfornata Notturna",
+        "activity": "Escono le prime michette per i nottambuli",
+        "products": ["Michette notturne", "Pane emergenza"],
+        "story": "Per tassisti, infermieri e anime insonni"
+      },
+      {
+        "time": "03:00",
+        "title": "L'Ora dei Cornetti",
+        "activity": "Prepariamo i cornetti per chi si sveglia presto",
+        "products": ["Cornetto delle 3", "Brioche"],
+        "story": "Il profumo di burro riempie la notte"
+      },
+      {
+        "time": "04:00",
+        "title": "I Guardiani dell'Alba",
+        "activity": "Sforniamo per i lavoratori del primo turno",
+        "products": ["Panini", "Focacce"],
+        "story": "I primi operai arrivano, il caffè è già pronto"
+      },
+      {
+        "time": "05:00",
+        "title": "La Città si Sveglia",
+        "activity": "Prepariamo le consegne per bar e hotel",
+        "products": ["Tutto il catalogo"],
+        "story": "I furgoni partono carichi di pane caldo"
+      },
+      {
+        "time": "06:00",
+        "title": "Colazione Milano",
+        "activity": "Rush mattutino, tutti vogliono il pane fresco",
+        "products": ["Cornetti", "Pane fresco"],
+        "story": "La fila si allunga, il profumo chiama"
+      },
+      {
+        "time": "07:00",
+        "title": "L'Esercito dei Pendolari",
+        "activity": "Panini veloci per chi corre al lavoro",
+        "products": ["Michette", "Focacce farcite"],
+        "story": "5 minuti di sosta prima della metro"
+      },
+      {
+        "time": "08:00",
+        "title": "Rifornimento Bar",
+        "activity": "Seconda ondata di consegne B2B",
+        "products": ["Prodotti bar"],
+        "story": "I bar partner ricevono il secondo carico"
+      },
+      {
+        "time": "09:00",
+        "title": "La Calma del Mattino",
+        "activity": "Momento di respiro, prepariamo il pranzo",
+        "products": ["Impasti pizza", "Focacce"],
+        "story": "Le signore del quartiere vengono a fare due chiacchiere"
+      },
+      {
+        "time": "10:00",
+        "title": "Preparazione Pranzo",
+        "activity": "Il forno lavora per l'ora di pranzo",
+        "products": ["Pizza", "Focacce speciali"],
+        "story": "Gli uffici iniziano a ordinare"
+      },
+      {
+        "time": "11:00",
+        "title": "Pre-Pranzo",
+        "activity": "Ultimi preparativi per il rush",
+        "products": ["Tutto pronto"],
+        "story": "L'odore di focaccia invade la strada"
+      },
+      {
+        "time": "12:00",
+        "title": "Rush Hour Pranzo",
+        "activity": "Il momento più intenso del giorno",
+        "products": ["Panini", "Pizza al taglio"],
+        "story": "La fila arriva fino alla porta"
+      },
+      {
+        "time": "13:00",
+        "title": "Pranzo del Quartiere",
+        "activity": "Serviamo gli ultimi affamati",
+        "products": ["Ultimi panini caldi"],
+        "story": "I commercianti vengono a turno"
+      },
+      {
+        "time": "14:00",
+        "title": "Cambio Turno",
+        "activity": "I fratelli si passano il testimone",
+        "products": ["Preparazione pomeridiana"],
+        "story": "Un caffè insieme, poi si riparte"
+      },
+      {
+        "time": "15:00",
+        "title": "L'Ora della Merenda",
+        "activity": "Focaccine per i bambini che escono da scuola",
+        "products": ["Focaccine", "Pizzette"],
+        "story": "Voci di bambini riempiono il negozio"
+      },
+      {
+        "time": "16:00",
+        "title": "Preparazione Serale",
+        "activity": "Iniziamo gli impasti per la sera",
+        "products": ["Impasti serali"],
+        "story": "Il ritmo rallenta, ma non ci fermiamo"
+      },
+      {
+        "time": "17:00",
+        "title": "L'Ora del Tè",
+        "activity": "Momento tranquillo prima della sera",
+        "products": ["Biscotti", "Dolci"],
+        "story": "Le signore vengono per il pane di domani"
+      },
+      {
+        "time": "18:00",
+        "title": "Sfornata Serale",
+        "activity": "Pane fresco per la cena",
+        "products": ["Pane fresco", "Grissini"],
+        "story": "Chi torna dal lavoro sa che ci siamo"
+      },
+      {
+        "time": "19:00",
+        "title": "Aperitivo Time",
+        "activity": "Grissini e focacce per l'aperitivo",
+        "products": ["Stuzzichini", "Focacce"],
+        "story": "I bar ordinano l'ultimo giro"
+      },
+      {
+        "time": "20:00",
+        "title": "Cena in Famiglia",
+        "activity": "Il pane per la tavola della sera",
+        "products": ["Pane tradizionale"],
+        "story": "Le famiglie vengono per il pane caldo"
+      },
+      {
+        "time": "21:00",
+        "title": "Rifornimento Ristoranti",
+        "activity": "Consegne serali per i ristoranti",
+        "products": ["Prodotti B2B"],
+        "story": "I ristoranti ricevono l'ultima fornitura"
+      },
+      {
+        "time": "22:00",
+        "title": "Inizia il Turno di Notte",
+        "activity": "Il fratello maggiore prende il comando",
+        "products": ["Preparazione notturna"],
+        "story": "La città si prepara a dormire, noi no"
+      },
+      {
+        "time": "23:00",
+        "title": "L'Ora dei Nottambuli",
+        "activity": "Primi clienti della notte",
+        "products": ["Pane fresco", "Cornetti"],
+        "story": "I primi nottambuli arrivano"
+      }
+    ]
+  },
+  "nightStories": {
+    "title": "Storie dalla Notte",
+    "subtitle": "Chi viene a comprare pane alle 3 del mattino?",
+    "stories": [
+      {
+        "title": "Marco, il Tassista",
+        "time": "04:00",
+        "story": "Ogni notte, stesso panino, stesso sorriso. 'Voi siete la mia colazione da 5 anni', dice sempre.",
+        "product": "Michetta con mortadella"
+      },
+      {
+        "title": "Dottoressa Laura",
+        "time": "03:00",
+        "story": "Finisce il turno in ospedale. 'Il vostro cornetto caldo è l'unica cosa bella dopo 12 ore di pronto soccorso.'",
+        "product": "Cornetto alla crema"
+      },
+      {
+        "title": "Il Ristorante in Panico",
+        "time": "22:30",
+        "story": "Sabato sera, 80 coperti, finisce il pane. Una chiamata disperata, 25 minuti dopo: pane per tutti.",
+        "product": "10kg di pane misto"
+      },
+      {
+        "title": "La Mamma Insonne",
+        "time": "02:30",
+        "story": "Il bimbo non dorme, lei lo porta a fare un giro. 'Il profumo del pane lo calma sempre.'",
+        "product": "Brioche calda"
+      },
+      {
+        "title": "Gli Studenti del Poli",
+        "time": "05:00",
+        "story": "Sessione esami, notte in bianco. 'Siete l'unico posto dove possiamo fare colazione prima dell'esame delle 8.'",
+        "product": "Cornetti e caffè"
+      }
+    ]
+  },
+  "whyH24": {
+    "title": "Perché 24 Ore?",
+    "subtitle": "Non è marketing. È una promessa.",
+    "reasons": [
+      {
+        "icon": "🌃",
+        "title": "La Città Non Dorme",
+        "text": "Milano lavora anche di notte. Infermieri, tassisti, operai del turno notturno: tutti hanno diritto al pane fresco."
+      },
+      {
+        "icon": "🚨",
+        "title": "Le Emergenze Esistono",
+        "text": "Quando un ristorante finisce il pane alle 21, noi siamo l'unica soluzione."
+      },
+      {
+        "icon": "💪",
+        "title": "È Nel Nostro DNA",
+        "text": "Siamo uomini di granite. Non ci stanchiamo, non molliamo, non chiudiamo."
+      },
+      {
+        "icon": "❤️",
+        "title": "È Un Atto d'Amore",
+        "text": "Essere aperti sempre non è un business model. È amore per quello che facciamo."
+      }
+    ]
+  },
+  "stats": {
+    "title": "I Numeri della Notte",
+    "data": [
+      {
+        "number": "8,640",
+        "label": "Ore aperte all'anno"
+      },
+      {
+        "number": "360",
+        "label": "Giorni aperti"
+      },
+      {
+        "number": "15%",
+        "label": "Clienti notturni"
+      },
+      {
+        "number": "3,000+",
+        "label": "Emergenze risolte nel 2024"
+      },
+      {
+        "number": "24/7",
+        "label": "Sempre"
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "text": "Sono medico al San Raffaele. Finisco alle 3, loro ci sono sempre. Un'istituzione.",
+      "author": "Dott. Giovanni R."
+    },
+    {
+      "text": "Ho un ristorante. Sapere che posso chiamarli SEMPRE mi fa dormire sonni tranquilli.",
+      "author": "Chef Marco T."
+    },
+    {
+      "text": "Studente fuorisede. Budget limitato, orari assurdi. Loro non mi hanno mai deluso.",
+      "author": "Alessandro S."
+    }
+  ],
+  "comparison": {
+    "title": "Noi vs Gli Altri",
+    "us": [
+      "Aperti 24/7",
+      "Consegne notturne",
+      "Zero chiusure per ferie",
+      "Emergenze in 30 minuti",
+      "Stesso prezzo H24"
+    ],
+    "others": [
+      "Chiudono alle 20",
+      "Niente consegne dopo le 18",
+      "Agosto chiusi",
+      "Emergenze? Che emergenze?",
+      "Maggiorazione notturna"
+    ]
+  },
+  "cta": {
+    "title": "Hai Fame Ora?",
+    "subtitle": "Non importa che ore sono",
+    "buttons": {
+      "call": "Chiama Ora",
+      "whatsapp": "WhatsApp",
+      "directions": "Come Arrivare"
+    },
+    "emergency": "EMERGENZA? 333 456 7890"
+  }
+}
