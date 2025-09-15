@@ -1,5 +1,3 @@
-<artifacts>
-<artifact identifier="robots-txt" type="application/vnd.ant.code" language="text" title="robots.txt - Direttive per i crawler">
 # Robots.txt per I 3 Fratelli
 # L'unico panificio H24 di Milano
 # Ultima modifica: 2025-01-13
@@ -76,5 +74,3 @@ Località: Milano
 Unique: Unico panificio sempre aperto 24/7
 Specialità: Pane con lievito madre, servizio notturno
 Keywords: panificio 24h milano, pane notte, sempre aperto
-</artifact>
-</artifacts>
