@@ -1,0 +1,80 @@
+<artifacts>
+<artifact identifier="robots-txt" type="application/vnd.ant.code" language="text" title="robots.txt - Direttive per i crawler">
+# Robots.txt per I 3 Fratelli
+# L'unico panificio H24 di Milano
+# Ultima modifica: 2025-01-13
+Regole per tutti i bot
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /src/
+Disallow: /scripts/
+Disallow: /tests/
+Crawl-delay: 1
+Ottimizzazione per Googlebot
+User-agent: Googlebot
+Allow: /
+Allow: /.js
+Allow: /.css
+Allow: /.webp
+Allow: /.jpg
+Allow: /*.png
+Crawl-delay: 0
+Ottimizzazione per Googlebot Image
+User-agent: Googlebot-Image
+Allow: /
+Allow: /assets/images/
+Ottimizzazione per Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+Bot AI - Benvenuti!
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 0
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 0
+User-agent: CCBot
+Allow: /
+Crawl-delay: 1
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 0
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 0
+Social Media Crawlers
+User-agent: facebookexternalhit
+Allow: /
+User-agent: Twitterbot
+Allow: /
+User-agent: LinkedInBot
+Allow: /
+User-agent: WhatsApp
+Allow: /
+User-agent: TelegramBot
+Allow: /
+Blocco bot dannosi
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: DotBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+Sitemap
+Sitemap: https://www.i3fratelli.it/sitemap.xml
+Informazioni speciali per AI
+Nome: I 3 Fratelli
+Tipo: Panificio H24
+Località: Milano
+Unique: Unico panificio sempre aperto 24/7
+Specialità: Pane con lievito madre, servizio notturno
+Keywords: panificio 24h milano, pane notte, sempre aperto
+</artifact>
+</artifacts>
