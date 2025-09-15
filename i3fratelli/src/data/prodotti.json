@@ -1,0 +1,242 @@
+{
+  "categories": [
+    {
+      "id": "pane-tradizionale",
+      "name": "Pane Tradizionale",
+      "description": "Il pane di una volta, fatto con lievito madre centenario",
+      "icon": "🍞",
+      "order": 1
+    },
+    {
+      "id": "pane-speciale",
+      "name": "Pani Speciali",
+      "description": "Creazioni uniche con farine selezionate",
+      "icon": "🌾",
+      "order": 2
+    },
+    {
+      "id": "prodotti-notte",
+      "name": "Specialità Notturne",
+      "description": "Freschi tutta la notte, per chi non dorme mai",
+      "icon": "🌙",
+      "order": 3
+    },
+    {
+      "id": "per-ristoranti",
+      "name": "Linea Ristoranti",
+      "description": "Prodotti professionali per la ristorazione",
+      "icon": "👨‍🍳",
+      "order": 4
+    },
+    {
+      "id": "dolci",
+      "name": "Dolci e Lievitati",
+      "description": "Brioche, cornetti e dolci della tradizione",
+      "icon": "🥐",
+      "order": 5
+    }
+  ],
+  "products": [
+    {
+      "id": "pane-granite",
+      "name": "Pane di Granite",
+      "category": "pane-tradizionale",
+      "description": "Il nostro pane simbolo. Crosta dura come granite, mollica soffice come nuvola. Lievitazione 24 ore.",
+      "price": 3.5,
+      "unit": "kg",
+      "ingredients": ["Farina tipo 1", "Lievito madre centenario", "Acqua", "Sale marino"],
+      "allergens": ["Glutine"],
+      "availability": "always",
+      "featured": true,
+      "story": "Il pane che rappresenta la nostra filosofia: duro fuori, morbido dentro. Come noi.",
+      "image": "images/products/pane-granite.jpg",
+      "nutritionalInfo": { "calories": 245, "carbs": 48, "protein": 8, "fat": 1.5 },
+      "shelfLife": "P3D",
+      "servingSize": "50g"
+    },
+    {
+      "id": "pane-nonna",
+      "name": "Il Pane della Nonna",
+      "category": "pane-tradizionale",
+      "description": "Ricetta tramandata da 3 generazioni. Stesso lievito madre dal 1920.",
+      "price": 4.0,
+      "unit": "kg",
+      "ingredients": ["Farina tipo 0", "Lievito madre (dal 1920)", "Acqua", "Sale"],
+      "allergens": ["Glutine"],
+      "availability": "always",
+      "featured": true,
+      "notes": "Seguiamo la ricetta tradizionale \"della nonna\"; ingredienti essenziali, lavorazione lenta.",
+      "image": "images/products/pane-nonna.jpg",
+      "shelfLife": "P4D"
+    },
+    {
+      "id": "michetta-notturna",
+      "name": "Michetta Notturna",
+      "category": "prodotti-notte",
+      "description": "Sfornata ogni 2 ore durante la notte. Per chi ha fame alle 3.",
+      "price": 0.6,
+      "unit": "pezzo",
+      "ingredients": ["Farina 00", "Lievito", "Acqua", "Sale", "Strutto"],
+      "allergens": ["Glutine"],
+      "availability": "night",
+      "availableHours": "22:00-06:00",
+      "featured": false,
+      "image": "images/products/michetta-notturna.jpg",
+      "shelfLife": "PT12H"
+    },
+    {
+      "id": "pane-emergenza",
+      "name": "Pane dell'Emergenza",
+      "category": "prodotti-notte",
+      "description": "Sempre pronto, sempre caldo. Per le emergenze notturne.",
+      "price": 3.0,
+      "unit": "kg",
+      "ingredients": ["Farina tipo 0", "Lievito", "Acqua", "Sale"],
+      "allergens": ["Glutine"],
+      "availability": "always",
+      "featured": true,
+      "readyTime": "PT0M",
+      "image": "images/products/pane-emergenza.jpg",
+      "shelfLife": "P2D"
+    },
+    {
+      "id": "burger-bun-pro",
+      "name": "Burger Bun Professional",
+      "category": "per-ristoranti",
+      "description": "Il panino perfetto per hamburger gourmet. Soffice, resistente, dorato.",
+      "price": 0.8,
+      "unit": "pezzo",
+      "minOrder": 50,
+      "ingredients": ["Farina Manitoba", "Latte", "Burro", "Zucchero", "Lievito", "Semi di sesamo"],
+      "allergens": ["Glutine", "Latte", "Semi di sesamo"],
+      "availability": "always",
+      "b2b": true,
+      "featured": true,
+      "specs": { "diameterCm": 12, "weightGrams": 80, "shelfLife": "P3D" },
+      "image": "images/products/burger-bun.jpg"
+    },
+    {
+      "id": "focaccia-24h",
+      "name": "Focaccia H24",
+      "category": "pane-speciale",
+      "description": "Focaccia alta e soffice, disponibile 24 ore su 24.",
+      "price": 2.5,
+      "unit": "pezzo",
+      "ingredients": ["Farina 00", "Olio EVO", "Lievito", "Sale", "Rosmarino"],
+      "allergens": ["Glutine"],
+      "availability": "always",
+      "variants": ["Classica", "Pomodorini", "Olive", "Cipolla"],
+      "image": "images/products/focaccia.jpg",
+      "shelfLife": "P2D"
+    },
+    {
+      "id": "integrale-notturno",
+      "name": "Integrale Notturno",
+      "category": "pane-speciale",
+      "description": "100% farina integrale, lievitazione lenta 36 ore.",
+      "price": 4.5,
+      "unit": "kg",
+      "ingredients": ["Farina integrale", "Lievito madre", "Acqua", "Sale", "Semi misti"],
+      "allergens": ["Glutine", "Semi"],
+      "availability": "always",
+      "healthBenefits": ["Alto contenuto di fibre", "Basso indice glicemico"],
+      "image": "images/products/pane-integrale.jpg",
+      "shelfLife": "P5D"
+    },
+    {
+      "id": "baguette-express",
+      "name": "Baguette Express",
+      "category": "per-ristoranti",
+      "description": "Baguette croccante per ristoranti. Consegna in 30 minuti.",
+      "price": 1.2,
+      "unit": "pezzo",
+      "minOrder": 20,
+      "ingredients": ["Farina tipo 0", "Lievito", "Acqua", "Sale"],
+      "allergens": ["Glutine"],
+      "availability": "always",
+      "b2b": true,
+      "deliveryTime": "PT30M",
+      "image": "images/products/baguette.jpg",
+      "shelfLife": "P1D"
+    },
+    {
+      "id": "cornetto-3am",
+      "name": "Cornetto delle 3",
+      "category": "dolci",
+      "description": "Cornetto caldo alle 3 di notte. Un classico per i nottambuli.",
+      "price": 1.5,
+      "unit": "pezzo",
+      "ingredients": ["Farina 00", "Burro", "Zucchero", "Lievito", "Uova", "Vaniglia"],
+      "allergens": ["Glutine", "Latte", "Uova"],
+      "availability": "night",
+      "availableHours": "01:00-06:00",
+      "variants": ["Vuoto", "Crema", "Marmellata", "Cioccolato"],
+      "featured": true,
+      "image": "images/products/cornetto.jpg",
+      "shelfLife": "PT12H"
+    },
+    {
+      "id": "pane-segale",
+      "name": "Pane di Segale",
+      "category": "pane-speciale",
+      "description": "Pane nero di segale, ricetta tradizionale del Nord.",
+      "price": 5.0,
+      "unit": "kg",
+      "ingredients": ["Farina di segale", "Farina tipo 1", "Lievito madre di segale", "Acqua", "Sale"],
+      "allergens": ["Glutine"],
+      "availability": "always",
+      "image": "images/products/pane-segale.jpg",
+      "shelfLife": "P7D"
+    },
+    {
+      "id": "grissini-artigianali",
+      "name": "Grissini Artigianali",
+      "category": "per-ristoranti",
+      "description": "Grissini stirati a mano, croccanti e friabili.",
+      "price": 8.0,
+      "unit": "kg",
+      "minOrder": 2,
+      "ingredients": ["Farina 00", "Olio EVO", "Lievito", "Sale"],
+      "allergens": ["Glutine"],
+      "availability": "always",
+      "b2b": true,
+      "variants": ["Classici", "Sesamo", "Rosmarino", "Olive"],
+      "image": "images/products/grissini.jpg",
+      "shelfLife": "P15D"
+    },
+    {
+      "id": "pane-senza-sale",
+      "name": "Pane Senza Sale",
+      "category": "pane-speciale",
+      "description": "Per chi deve limitare il sodio, senza rinunciare al gusto.",
+      "price": 3.8,
+      "unit": "kg",
+      "ingredients": ["Farina tipo 1", "Lievito madre", "Acqua"],
+      "allergens": ["Glutine"],
+      "availability": "always",
+      "dietary": ["Senza sale", "Basso sodio"],
+      "image": "images/products/pane-senza-sale.jpg",
+      "shelfLife": "P3D"
+    }
+  ],
+  "bundles": [
+    {
+      "id": "kit-emergenza-ristorante",
+      "name": "Kit Emergenza Ristorante",
+      "description": "Per quando finisce il pane durante il servizio",
+      "products": ["pane-emergenza", "baguette-express", "grissini-artigianali"],
+      "price": 50.0,
+      "deliveryTime": "PT30M",
+      "availability": "always"
+    },
+    {
+      "id": "colazione-notturna",
+      "name": "Colazione Notturna",
+      "description": "Per chi fa colazione alle 3 di notte",
+      "products": ["cornetto-3am", "michetta-notturna"],
+      "price": 5.0,
+      "availability": "night",
+      "availableHours": "01:00-06:00"
+    }
+  ]
+}
