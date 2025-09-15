@@ -1,0 +1,105 @@
+{
+  "id": "/?source=webmanifest",
+  "short_name": "I 3 Fratelli",
+  "name": "I 3 Fratelli - Panificio H24 Milano",
+  "description": "L'unico vero panificio di quartiere aperto 24 ore su 24 a Milano. Mani di granite, cuore di lievito.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "browser"],
+  "theme_color": "#8B6F47",
+  "background_color": "#FAF7F2",
+  "orientation": "portrait-primary",
+  "lang": "it-IT",
+  "dir": "ltr",
+  "categories": ["food", "shopping", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "screenshots/home.png",
+      "type": "image/png",
+      "sizes": "1280x720",
+      "label": "Homepage - Sempre aperti 24h"
+    },
+    {
+      "src": "screenshots/prodotti.png",
+      "type": "image/png",
+      "sizes": "1280x720",
+      "label": "I nostri pani artigianali"
+    },
+    {
+      "src": "screenshots/b2b.png",
+      "type": "image/png",
+      "sizes": "1280x720",
+      "label": "Servizio per ristoranti"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ordina su WhatsApp",
+      "short_name": "Ordina",
+      "description": "Ordina pane direttamente su WhatsApp",
+      "url": "ordina?utm_source=pwa",
+      "icons": [
+        {
+          "src": "icons/whatsapp-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Siamo aperti?",
+      "short_name": "Orari",
+      "description": "Verifica orari (Sempre aperti 24h!)",
+      "url": "contatti?utm_source=pwa",
+      "icons": [
+        {
+          "src": "icons/clock-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Per Ristoranti",
+      "short_name": "B2B",
+      "description": "Forniture per ristoranti H24",
+      "url": "b2b?utm_source=pwa",
+      "icons": [
+        {
+          "src": "icons/restaurant-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "features": [
+    "24/7 availability",
+    "WhatsApp ordering",
+    "Emergency delivery",
+    "B2B services"
+  ],
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7"
+}
