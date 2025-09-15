@@ -1,0 +1,249 @@
+/* ========================================
+   WHATSAPP FLOAT.CSS - I 3 FRATELLI
+   Stili per bottone WhatsApp flottante
+   ======================================== */
+.whatsapp-float-container {
+position: fixed;
+bottom: 80px;
+right: 20px;
+z-index: var(--z-notification);
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+gap: var(--space-sm);
+}
+/* Night mode adjustments */
+.whatsapp-float-container.night-mode .whatsapp-tooltip {
+background: var(--nero-granite);
+color: var(--crema-farina);
+}
+/* Tooltip */
+.whatsapp-tooltip {
+position: absolute;
+bottom: 70px;
+right: 0;
+background: white;
+box-shadow: var(--shadow-lg);
+border-radius: var(--radius-md);
+padding: var(--space-sm) var(--space-md);
+min-width: 200px;
+animation: slideInRight 0.3s ease;
+white-space: nowrap;
+}
+@keyframes slideInRight {
+from {
+opacity: 0;
+transform: translateX(20px);
+}
+to {
+opacity: 1;
+transform: translateX(0);
+}
+}
+.tooltip-content {
+font-size: var(--text-sm);
+font-weight: 600;
+color: var(--nero-granite);
+}
+.tooltip-arrow {
+position: absolute;
+bottom: -8px;
+right: 25px;
+width: 0;
+height: 0;
+border-left: 8px solid transparent;
+border-right: 8px solid transparent;
+border-top: 8px solid white;
+}
+/* Main Button */
+.whatsapp-float {
+width: 60px;
+height: 60px;
+background: var(--verde-whatsapp);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border: none;
+box-shadow: 0 4px 12px rgba(37, 211, 102, 0.5);
+transition: all var(--transition-base);
+position: relative;
+overflow: visible;
+}
+.whatsapp-float:hover {
+transform: scale(1.1);
+box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+}
+.whatsapp-float:active {
+transform: scale(0.95);
+}
+/* Notification Badge */
+.notification-badge {
+position: absolute;
+top: -5px;
+right: -5px;
+background: var(--rosso-urgenza);
+color: white;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: var(--text-xs);
+font-weight: bold;
+border: 2px solid white;
+animation: bounceIn 0.5s ease;
+}
+@keyframes bounceIn {
+0% {
+transform: scale(0);
+}
+50% {
+transform: scale(1.2);
+}
+100% {
+transform: scale(1);
+}
+}
+/* WhatsApp Icon */
+.whatsapp-icon {
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+z-index: 2;
+}
+.whatsapp-icon svg {
+filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+/* Pulse Effects */
+.whatsapp-pulse,
+.whatsapp-pulse-2 {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+background: var(--verde-whatsapp);
+opacity: 0.6;
+transform: translate(-50%, -50%);
+animation: pulse-wave 2s infinite;
+pointer-events: none;
+}
+.whatsapp-pulse-2 {
+animation-delay: 0.5s;
+}
+@keyframes pulse-wave {
+0% {
+transform: translate(-50%, -50%) scale(1);
+opacity: 0.6;
+}
+70% {
+transform: translate(-50%, -50%) scale(1.5);
+opacity: 0;
+}
+100% {
+transform: translate(-50%, -50%) scale(1.5);
+opacity: 0;
+}
+}
+/* Quick Actions */
+.whatsapp-quick-actions {
+display: none;
+position: absolute;
+bottom: 70px;
+right: 0;
+gap: var(--space-xs);
+}
+.quick-action {
+width: 40px;
+height: 40px;
+background: var(--rosso-urgenza);
+border-radius: 50%;
+border: none;
+color: white;
+font-size: var(--text-lg);
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+box-shadow: var(--shadow-md);
+transition: all var(--transition-base);
+}
+.quick-action:hover {
+transform: scale(1.1);
+}
+/* Status Indicator */
+.whatsapp-status {
+position: absolute;
+bottom: -25px;
+right: 0;
+background: rgba(0, 0, 0, 0.7);
+color: white;
+padding: 4px 8px;
+border-radius: var(--radius-full);
+font-size: 10px;
+display: flex;
+align-items: center;
+gap: 4px;
+white-space: nowrap;
+opacity: 0;
+animation: fadeIn 0.5s ease 2s forwards;
+}
+.status-dot {
+width: 6px;
+height: 6px;
+background: #4CAF50;
+border-radius: 50%;
+animation: pulse 2s infinite;
+}
+.status-text {
+font-weight: 600;
+}
+/* Mobile Specific */
+@media (max-width: 768px) {
+.whatsapp-float-container {
+bottom: 90px;
+right: 15px;
+}
+.whatsapp-float {
+width: 56px;
+height: 56px;
+}
+.whatsapp-tooltip {
+max-width: 180px;
+font-size: var(--text-xs);
+}
+.whatsapp-quick-actions {
+display: flex;
+flex-direction: column;
+}
+.whatsapp-status {
+display: none;
+}
+}
+/* Tablet adjustments */
+@media (min-width: 769px) and (max-width: 1024px) {
+.whatsapp-float-container {
+bottom: 30px;
+}
+}
+/* Animation when has notification */
+.whatsapp-float.has-notification {
+animation: shake 0.5s ease;
+}
+@keyframes shake {
+0%, 100% { transform: rotate(0deg); }
+25% { transform: rotate(-10deg); }
+75% { transform: rotate(10deg); }
+}
+/* Hide on print */
+@media print {
+.whatsapp-float-container {
+display: none !important;
+}
+}
